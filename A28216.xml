@@ -1,0 +1,626 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poematica</title>
+            <author>Birkhead, Henry, 1617?-1696.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1645</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A28216</idno>
+            <idno type="STC">Wing B2977</idno>
+            <idno type="STC">ESTC R23699</idno>
+            <idno type="EEBO-CITATION">07874227</idno>
+            <idno type="OCLC">ocm 07874227</idno>
+            <idno type="VID">40246</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A28216)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40246)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1197:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Poematica</title>
+                  <author>Birkhead, Henry, 1617?-1696.</author>
+               </titleStmt>
+               <extent>14 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[Oxford? :</pubPlace>
+                  <date>1645.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:40246:1"/>
+            <pb facs="tcp:40246:1" rendition="simple:additions"/>
+            <p>POEMATIA.</p>
+            <q>Carmen amat, quſquis, carmine digna gerit. <bibl>
+                  <hi>Claudian.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>Ann. Dom.</hi> 1645.</p>
+         </div>
+      </front>
+      <body>
+         <div type="to_the_reader">
+            <pb facs="tcp:40246:2"/>
+            <pb n="1" facs="tcp:40246:2"/>
+            <head>Lectori Lecto.</head>
+            <p>MInorennis haec Ingenii Progymnaſmata, ſiccitate fa<g ref="char:EOLhyphen"/>bulum imitantia, pulvere partim Paedagogico, arenâ partim Academicâ, Poeticum exercuere Tyrocini<g ref="char:EOLhyphen"/>um: quorum infantiam cùm edentula ſat fatetur innocentia, non etiam argueret brevitas; niſi Plagiarii Milites viaticum ſurripuiſſent mihi literarium; &amp; Barbarie paenè ſtylum ſu<g ref="char:EOLhyphen"/>perantes, faſciatim colligatam pro Faſciculo concremaſſent Sylvulam. Hae vero Arbuſculae eo quòd domi repudiatae ſoſpi<g ref="char:EOLhyphen"/>tabantur; damnataeque flammis, aliam (an mitiorem neſcio) ſortitae ſunt lucem. Fruebantur Fato Sirempſe cum naufra<g ref="char:EOLhyphen"/>gis, ubi ſubſidentibus ponderoſis ſuperenatant leviora; quorum áliqua commenta ſunt eodem quo ſcribuntur ſpacio, eâdem quâ legantur negligentià. At quid mî Epiſtolarem curatio eſt Apologiam? qui
+<q>
+                  <l>Non recito cuiquam niſi amicis, idque coactus;</l>
+                  <l>Non ubivis, coramve quibuſlibet:</l>
+               </q>
+Scilicet <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, multeſimo libello in Au<g ref="char:EOLhyphen"/>thorem licèt <hi>famoſo</hi> cogor ſubſcribere; &amp; Minervae meae ci<g ref="char:EOLhyphen"/>neres ante vitam Typographicam extinctae, velut Ce<g ref="char:EOLhyphen"/>rebelli <hi>Caput Mortuum</hi> cuſtodire.</p>
+         </div>
+         <div type="poem">
+            <pb n="2" facs="tcp:40246:3"/>
+            <head>Ad <hi>JACOBUM,</hi> Carolini Stemmatis Secundo-geni<g ref="char:EOLhyphen"/>tum, Ducem Eboracenſem, &amp; Suum.</head>
+            <l>
+               <seg rend="decorInit">C</seg>ùm Toga ſanguineos audet potare colores,</l>
+            <l>Et ſuperindutum fert animoſa ſagum;</l>
+            <l>Invideatur eis cur duplex Laurea? Non eſt</l>
+            <l>Armatum, Galeam nî Caput intus habet:</l>
+            <l>Hoſtes dextra domet, Cerebro Victoria victa eſt;</l>
+            <l>Hâc Numeri cöeunt, Hôc cöiere duces.</l>
+            <l>Vitam Magnanimi; ſatagunt &amp; perdere Mortem</l>
+            <l>Praecipites: Res eſt ingenioſa Mori.</l>
+         </div>
+         <div type="poem">
+            <head>In Honoratiſſimum Dominum <hi>EDOARDUM LITTLETON,</hi> Magni Angliae Sigilli Cuſtodem, &amp; Chiliarcham.</head>
+            <l>TRuncatus manibus, ne ferret munera Iudex;</l>
+            <l>Olim oculis captus, ne caperetur, erat:</l>
+            <l>Vteris ambobus melius <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,</l>
+            <l>Jura Oculo tueris, Jura tuere Manu.</l>
+            <l>Arma Togae ſocias, Cuſtos utriuſque Minervae,</l>
+            <l>Juridicum Bellum, bellica Jura facis;</l>
+            <l>Nata ſit Aſtraei cùm Legum diva Gigantis,</l>
+            <l>
+               <hi>Herm-arium</hi> fas eſt Hanc habuiſſe Ducem.</l>
+            <l>Hercule ſub duplo non eſt dubitare Triumphos,</l>
+            <l>Qui Verbo mentes, Verbere membra domet.</l>
+         </div>
+         <div type="poem">
+            <pb n="3" facs="tcp:40246:3"/>
+            <head>Tormenti Oxoniae fuſi. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Jupiter Tonans figuretur.</head>
+            <l>ABſtulit aethereos ubi fraude Prometheus ignes,</l>
+            <l>Senſit Fulmineo ſat ſupereſſe Jovi:</l>
+            <l>Sic rapuere licèt Populumque, &amp; Tela Rebelles,</l>
+            <l>CAROLUS invenit vel Spoliatus opem.</l>
+            <l>Armata en Oleum mutat cum Sulphure Pallas,</l>
+            <l>Spretum Vulcani laeta ſubire jugum;</l>
+            <l>Dum parit aeratae Tormentum rivulus undae,</l>
+            <l>Exuperans ſonitu Fulmina, Caede Luem:</l>
+            <l>Nec tactu Glans ſola necem, quandoque ſuſurro</l>
+            <l>Imprimit, &amp; vitam quae fovet Aura, rapit,</l>
+            <l>Incipe Sulphureis Orco praeludere Flammis,</l>
+            <l>(Igne alio digni qui periere Tuo)</l>
+            <l>Ut debellatos doceas (Bombarda) Gigantes,</l>
+            <l>Tantùm Caeſareos bis jugulare Globos.</l>
+            <bibl>
+               <hi>Prometheus</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</bibl>
+         </div>
+         <div type="poem">
+            <head>
+               <hi>HENRICO SPELMANNO</hi> Equiti Aurato Exequiae.</head>
+            <lg>
+               <l>Primaevo moriente cadunt Flos, Germen, Ariſta;</l>
+               <l>Provecto, Meſſis tota, Corona, Nemus:</l>
+               <l>Hic inonuſta Ratis, cumulatur Mercibus alter;</l>
+               <l>Mors Juveni Portus, Naufragiumque Seni:</l>
+               <l>Victima grata cadit, Caedes inviſa Tonanti,</l>
+               <l>Is vitam Bruti vivit, at ille Viri.</l>
+               <l>
+                  <pb n="4" facs="tcp:40246:4" rendition="simple:additions"/>Sed Senium <hi>Spelmanne</hi> tuum non condidit aetas</l>
+               <l>Unica, qui mundo mente coaevus eras;</l>
+               <l>Ignotum rimatus iter, rerumque Maeandros,</l>
+               <l>Quà nemo poterat Ducere, nemo Sequi:</l>
+               <l>Digne magis Statuis, Hermete potentior Hermes,</l>
+               <l>Hic ſolùm Oſtendit, tu Facis arte viam.</l>
+               <l>Relligio tibi Natales, Eccleſia Cunas</l>
+               <l>Debet, CONCILIIS ipſe Columbus eras:</l>
+               <l>Hoſpes quiſque domi pridem, Vernaculus exul,</l>
+               <l>Patria quin per Te poſthuma facta ſibi eſt;</l>
+               <l>Sic natae tu Natus ades, Genitorque parentis,</l>
+               <l>Anglia te peperit, Naſcitur Illa tibi.</l>
+               <l>Saxonicis veteres ſpoliaſti Anathemaſin urnas,</l>
+               <l>Sacrilegâ gnarus Templa beare manu;</l>
+               <l>Relliquias Analecta putans, niſi juncta ſenectae</l>
+               <l>Virtus, nî tumulo ſit Monimenta cinis:</l>
+               <l>O quàm praeſentis parcus fuit arbiter aevi,</l>
+               <l>Qui vel praeteritum non periiſſe ſinit.</l>
+               <l>Nec ſolum extincti, ſed &amp; ipſa <hi>Sepulchra</hi> reſurgunt:</l>
+               <l>Vita Necem, per quam Mors rediviva, feret?</l>
+               <l>Vendaces Fa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i loro aſperiore flagellas,</l>
+               <l>Queis Latro Pietas, Sacra Rapina Fides;</l>
+               <l>Sancta Columba quibus Merx eſt, Altare Trapeza,</l>
+               <l>Quiſquis emit Templum, vendere crede Deum.</l>
+               <l>Si Sua ſubducens moritur, quae paena moratur</l>
+               <l>Sacrilegum, qui ſic dona Aliena rapit?</l>
+               <l>Laus tamen haec ſimplex; ſed uti cui convenit unus.</l>
+               <l>Virtutum nexus, tota Catena favet:</l>
+               <l>Sic Individua cùm quis dotatur ab Arte,</l>
+               <l>Singula mox Cyclo conſociante fluit.</l>
+               <l>Saxonica exponant Authorem pulpita, Tantis</l>
+               <l>Haud par Lingua tamen laudibus una foret,</l>
+               <l>
+                  <pb n="5" facs="tcp:40246:4"/>Pandecteſve Suus vocum; thema nempe futurus</l>
+               <l>Pluribus hiſtoriis, quàm modo Lector erat:</l>
+               <l>Vixit enim Patriae tantùm, Sibi mortuus olim;</l>
+               <l>Nunc moritur Patriae, vivat ut ille ſibi.</l>
+            </lg>
+            <lg>
+               <head>In Charidemum</head>
+               <l>DUm patitur juſti frater diſcrimina belli,</l>
+               <l>Perjuro potius crimine tutus eris.</l>
+               <l>Sic fieri ſalvum, quis crederet eſſe ſalutem?</l>
+               <l>Quis Timidi, Genium ſic violare Pium?</l>
+               <l>Fortius eſt animae, quàm ferre pericula vitae;</l>
+               <l>Hic homini pugnat, tu Charideme Deo.</l>
+            </lg>
+            <lg>
+               <head>Vbique Mors eſt.</head>
+               <l>Non tantùm pandit tria guttura Janitor Orci,</l>
+               <l>Innumero populos Cerberus ore vorat.</l>
+               <l>Tolle Famem, Morbos, Pelagique inſtantia Fata,</l>
+               <l>Tranabit cupiens abſque Charonte Styga.</l>
+               <l>Enſe negante, necem feret Annulus, Uva, Cicuta,</l>
+               <l>Incluſuſque Dolor, Gaudiaque ipſa dabunt:</l>
+               <l>Poſte petas lethum, Laqueis, ardente Favillâ,</l>
+               <l>Amittas Animam, dum retinere velis.</l>
+               <l>Vel cupido vitam poterit tibi quiſque negare,</l>
+               <l>Sed cupido mortem nemo negare poteſt.</l>
+            </lg>
+            <lg>
+               <head>Haec gnaticidae Virginio Virginia Moritura.</head>
+               <l>DUm ſervas animam, deſtructo corpore natae,</l>
+               <l>Impietate pius, ſaevus amore parens;</l>
+               <l>Multum parta tibi, plus Perdita debeo; non Me</l>
+               <l>Tam genuiſſe fuit, quàm necuiſſe Patris.</l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:40246:5"/>
+               <head>Narciſſus.</head>
+               <l>CUm procus ipſe ſibi captatur imagine formae,</l>
+               <l>Augebant flammas undaque, &amp; umbra ſuas:</l>
+               <l>Ruperunt elementa fidem. Venus orta profundo</l>
+               <l>Juſſit, ut e mediis creſceret ignis aquis.</l>
+            </lg>
+            <lg>
+               <head>Salvatoris Natalitium.</head>
+               <l>SI licet infirmis ipſam ſalvere ſalutem,</l>
+               <l>Salve Natalis lux, &amp; origo tui.</l>
+               <l>Te Mater ſine Patre, Pater ſine Matre creavit,</l>
+               <l>Semideumque virum, ſemivirumque Deum.</l>
+               <l>Oraclum peperit virgo Enthea, cujus ad Ompham</l>
+               <l>Fatidici Tripodum conticuere ſpecus.</l>
+               <l>Idem Agnus qui paſtor erat: Phaebi hujus ad ortum</l>
+               <l>Paſtorum duxit praevia ſtella gregem.</l>
+               <l>Haec celebrans mea concelebro Natalia; quippe</l>
+               <l>Per Chriſti vitam vita Renata mihi.</l>
+            </lg>
+            <lg>
+               <head>Apum Epicedium.</head>
+               <l>QUae modò Narciſſi lachrymas, Caliceſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Roſarum</l>
+               <l>Epotavit Apis, Rore ſepulta ſuo eſt;</l>
+               <l>In propriam faecunda necem, ſibi cura ruinam</l>
+               <l>Struxit, &amp; eſt Tumulus quae prius aula fuit.</l>
+               <l>Quàm benè Martyrium dicas, ubi flamma Sepulchrum:</l>
+               <l>O ubi nunc pietas, ſi labor ipſe nefas!</l>
+            </lg>
+            <lg>
+               <head>Vniverſalia entitatem habent ab Intellectu.</head>
+               <l>NIL mirum Ingenii nova quòd Reſpublica ſurgit,</l>
+               <l>Praegnantis cerebro ſic Dea nata Jovis:</l>
+               <l>Fit rerum Lucina caput: procul ite Hymenaei,</l>
+               <l>Jam ſine conjugio poſſumus eſſe Patres.</l>
+               <l>
+                  <pb n="7" facs="tcp:40246:5" rendition="simple:additions"/>Producit Ratio, quae tantùm concipit; &amp; vel</l>
+               <l>Poſt Partum fruitur Virginitate Parens.</l>
+            </lg>
+            <lg>
+               <head>In Oſtraciſmum per quem Ariſtides juſtus Athenis exulavit.</head>
+               <l>QUo jure criminoſo</l>
+               <l>Philopatris exulabat?</l>
+               <l>Credendus ergo non eſt</l>
+               <l>Quod neminem fefellit?</l>
+               <l>Juſtitia ne putetur</l>
+               <l>Quae punit ipſa juſtum;</l>
+               <l>Non Oſtraciſmus iſte</l>
+               <l>Lex, ſed ruina Legum:</l>
+               <l>Regem cavendo, fecit</l>
+               <l>Rempublicam Tyrannin.</l>
+            </lg>
+            <lg>
+               <head>De Proditoribus:</head>
+               <l>REX Philanactas, non Philo-Carolos</l>
+               <l>Promovet; hi praedarum ſaturi</l>
+               <l>Vendunt ipſum benefactorem:</l>
+               <l>Non eſt hoc lucrari Fidos,</l>
+               <l>Sed conducere defectores.</l>
+               <l>Data cùm pereunt, dantem perdunt.</l>
+            </lg>
+            <lg>
+               <head>In Smicrinum incarceratum.</head>
+               <l>DUM nil ais debere, Te nihil dicis;</l>
+               <l>Debetur omnis pendere impos, haud debet:</l>
+               <l>Solvendo ſi non, es luendo Smicrine.</l>
+            </lg>
+            <lg>
+               <head>In Fabullam:</head>
+               <l>QUod nunquam tibi creditur, pôetam</l>
+               <l>Te non illepidum Fabulla credis?</l>
+               <l>Et nos fingere poſſumus; pòeta es.</l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:40246:6"/>
+               <head>In Fidicinem.</head>
+               <l>QUàm cuncti ſtupuere tuae modulamina chordae,</l>
+               <l>Quoties tremorem ſenſit, uti pulſum fides:</l>
+               <l>Orpheus in Choricos animavit ſaxa; teipſo</l>
+               <l>Ant-orpheo pſallente lapideſcunt viri.</l>
+            </lg>
+            <lg>
+               <head>Dominium &amp; Servitus ſub Evangelio ſunt licita.</head>
+               <l>ACephala eſt Dominos Reſpublica; clauda Miniſtros</l>
+               <l>Si negat: haud Corpus, ſed foret illa chaos.</l>
+               <l>Quis Famuli faſtidit opus? ſub imagine ſervi</l>
+               <l>Chriſtus erat: ſimilem nil vetat eſſe Deo.</l>
+            </lg>
+            <lg>
+               <head>Ad Amicum de Librò ſuo.</head>
+               <l>INvidêre aliis alii; tibi Zôilus ipſe es,</l>
+               <l>Lector &amp; auditor dum tuus unus eris:</l>
+               <l>Per quam victurus fac vivat chartula; multi</l>
+               <l>Scribere praeproperent, edere nemo librum.</l>
+            </lg>
+            <lg>
+               <head>In Obtrectatorem Heinſiani libelli de laude Aſini.</head>
+               <l>INvide ſugillas <hi>Heinſius</hi> quod laudet Aſellum?</l>
+               <l>Tu celebras laudes Illius, ille tuas.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Luk.</hi> 23.30.</head>
+               <l>HEu quantâ gravitate premunt peccata, nefandi</l>
+               <l>Cùm ſuperimpoſitos mallent attollere montes:</l>
+               <l>Hos ſuſtentarunt, his ſuccubuere Gigantes.</l>
+            </lg>
+            <lg>
+               <head>In Lycurgum.</head>
+               <l>QUâ necuit vites, occumbit falce Lycurgus:</l>
+               <l>Diſce, ſcelus quantum ſit jugulare merum.</l>
+            </lg>
+            <lg>
+               <head>In Militem <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</head>
+               <l>QUi toties Regem eſſe ſuo juravit in aere,</l>
+               <l>Si non juraſſet, vera locutus erat:</l>
+               <l>Juramentales abſolvunt debita mulctae,</l>
+               <l>Dicta fidem minuunt cum ſacra, nuda creant.</l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:40246:6"/>
+               <head>In Cottam Sacrilegum.</head>
+               <l>SAcer videri Cotta vult, &amp; eſt ſacer:</l>
+               <l>Decimaſque amare profitetur, immò amat.</l>
+            </lg>
+            <lg>
+               <head>In Polyaenum.</head>
+               <l>QUòd capis in fuſi multum, laudabere, vini?</l>
+               <l>Dolia laudari ſic Polyaene ſolent.</l>
+               <l>Non tibi flagitiis aliis tempuſve, locuſve;</l>
+               <l>Nam quantus quantus totus es Ebrietas.</l>
+            </lg>
+            <lg>
+               <head>Androgynus.</head>
+               <l>DUm Pater intendit puerum, Materque puellam,</l>
+               <l>Victi ambo vincunt; neuter uterque creor.</l>
+               <l>Filius haud fieri poteram, niſi filia vellem;</l>
+               <l>Nec ſine Conjugio Virginitate frui.</l>
+            </lg>
+            <lg>
+               <head>Pſittacus.</head>
+               <l>SI tantùm ſpectes, hominem me jure negabis;</l>
+               <l>Si tantùm audieris, jure negabis avem.</l>
+            </lg>
+            <lg>
+               <head>Oratio.</head>
+               <l>SInt animae tua vela preces, ſuſpiria Venti,</l>
+               <l>Ducat ad Elyſios ſtyx lachrymalis agros.</l>
+               <l>Vela dealbabit, vento aſpirabit Jeſus,</l>
+               <l>Sanguineo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> pias rore lavabit aquas:</l>
+               <l>Res interpoſiti ſoleant curvare liquores;</l>
+               <l>Rectificat curvas flebilis unda vias.</l>
+            </lg>
+            <lg>
+               <head>Cupido caecus.</head>
+               <l>CUr caecutit Eros? fit amoris janua viſus;</l>
+               <l>Aſt intrat quoties, oſtia figit amor.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:40246:7"/>
+               <head>In Nigellam.</head>
+               <l>ALbas Aethiopem (factu mirabile] Nutrix;</l>
+               <l>Sit tibi cum ſyndon candida, nigra cutis.</l>
+            </lg>
+            <lg>
+               <head>In Orationes Ciceronianas.</head>
+               <l>SI Tulliano non ſtyli caperis modo,</l>
+               <l>Te Tullianum capiat. Expanſo nihil</l>
+               <l>Scripto amputandum: longa cum pars ſingula eſt</l>
+               <l>Orationum; Tota quaelibet, brevis.</l>
+            </lg>
+            <lg>
+               <head>Peccata non ſunt aequalia.</head>
+               <l>CUlpa minor Bruti quam Numinis; inde Tonantem</l>
+               <l>Ut levius peccet, credimus eſſe Pecus:</l>
+               <l>Deſcendit ſolio, ne ſit caeleſtis adulter;</l>
+               <l>Quique Capram ſuxit, fit Deus ipſe Caper.</l>
+            </lg>
+            <lg>
+               <head>In Madulſam.</head>
+               <l>TEr demerſa die, ter deſpumavit Jacchum,</l>
+               <l>Jactat &amp; hinc crebrum ſobrietatis opus;</l>
+               <l>Fallitur; hunc habitum varius non perficit actus:</l>
+               <l>Sobria quae toties, vix fuit illa ſemel.</l>
+            </lg>
+            <lg>
+               <head>In Philantum.</head>
+               <l>RIdes, decepit quod me rivalis amantem;</l>
+               <l>At tu ſcis cunctos fallere: temet amas.</l>
+            </lg>
+            <lg>
+               <head>In Mendacem.</head>
+               <l>QUid conſtante fidem moliris ludere falſo,</l>
+               <l>Nunquam non fatus recta per Antiphraſin?</l>
+               <l>Nulli verba dabis, conatus fallere cunctos;</l>
+               <l>Vis bene mentiri? vera ſoleto loqui.</l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:40246:7"/>
+               <head>Lumiuis reflectio.</head>
+               <l>ASpicis algentes ubi ſpargunt ſidera flammas,</l>
+               <l>Aſtra repercuſſo terra calore ferit;</l>
+               <l>Et ſi non tetigit, potuit tetigiſſe videri</l>
+               <l>Telluris pietas ambitioſa polum.</l>
+               <l>O quales hominem mores Natura doceret,</l>
+               <l>Ingratum quae vel non ſinit eſſe ſolum.</l>
+            </lg>
+            <lg>
+               <head>Lunae inconſtantia.</head>
+               <l>QUod fluit Oceani, refluit que reciprocus aeſtus,</l>
+               <l>Nil mirum in cauſâ ſi vaga ſtella fuat.</l>
+               <l>Datque capitque vices, variis argentea furtis,</l>
+               <l>Nec tot faemellis vota, quot ora Deae.</l>
+               <l>Titanis coitu gaudens (magis Endymionis,)</l>
+               <l>Ipſa licèt mulier, cornua fronte gerit.</l>
+            </lg>
+            <lg>
+               <head>Homo.</head>
+               <l>VIta via eſt, Mens eſt peregrina, viatica Virtus,</l>
+               <l>Hoſpitium Corpus, Mors finis, Patria Coelum.</l>
+               <l>Componunthominem Pulvis, Lachrymaeque; quid ergo</l>
+               <l>Diſpliceat pro veſte Cinis, Fletuſque dietâ.</l>
+            </lg>
+            <lg>
+               <head>In Aſtytum.</head>
+               <l>ELumbate ſenex nuptae jungêre puellae?</l>
+               <l>Conducere haeredem, haud maritam eſt ducere.</l>
+               <l>Effaetus nequeas unius funere membri</l>
+               <l>Placere ſponſae, morte cunctorum potes.</l>
+            </lg>
+            <lg>
+               <head>Riſibilitas eſt Hominis proprium.</head>
+               <l>EST homini proprium, proprium<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> eſt Riſus inepto:</l>
+               <l>An non deſipere humanum eſt? Res unica monſtrat</l>
+               <l>Dotatum ratione virum, &amp; ratione carentem.</l>
+            </lg>
+            <lg>
+               <head>Scaevola ad Dexteram.</head>
+               <l>FErvidiore calens quàm Dextera, Mutius igne,</l>
+               <l>Flammas laceſſit; urere ardentem putes:</l>
+               <l>
+                  <pb n="12" facs="tcp:40246:8"/>Alloquiturque manum; Me ſic ulſcicere, &amp; hoſtem;</l>
+               <l>Teque expiet luſtralis errantem focus.</l>
+               <l>Invidioſa Deis, mihi conclamata videris:</l>
+               <l>Quae dextra non es Patriae, nec ſis Mea.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Reverendiſſimo in Chriſto Patri ac Domino, Domino <hi>GUI<g ref="char:EOLhyphen"/>LIELMO LAVVD</hi> Archiepiſcopo Cantuarienſi Aca<g ref="char:EOLhyphen"/>demiae Oxonienſis nuper Cancellario Honorati<g ref="char:EOLhyphen"/>ſſimo &amp;c. Parentalia. Dithyrambus.</head>
+            <l>ECcleſiae quondam heîc Triumphantis</l>
+            <l>Archangelum, ah verè nimis</l>
+            <l>Jam Militantis Martyrem, quânam ſat</l>
+            <l>Celebrabimus Apotheoſi!</l>
+            <l>Quales ad Aram acceſſimus antè pro Te,</l>
+            <l>Tales ad Te nunc accederemus,</l>
+            <l>Nî pietas generoſior eſſet</l>
+            <l>Imitari Heroas, quàm Colere;</l>
+            <l>Et tu Sacros malles facere,</l>
+            <l>Quàm fieri Sanctus.</l>
+            <l>Qui fidelitate non fide</l>
+            <l>Romanus, Chriſti Sponſam</l>
+            <l>Schiſmaticis Deformatam,</l>
+            <l>Defloratam Haereticis,</l>
+            <l>Primaevae reſtituebas Virginitati;</l>
+            <l>Et clariori Pulchritudinis pompae:</l>
+            <l>Tu Pietatem Doctrinali pabulo fovebas,</l>
+            <l>Necnon decoro veſtiebas Diſciplinae</l>
+            <l>Lautus amictu;</l>
+            <l>Torpeat ne nuda Sanctitas,</l>
+            <l>Aut famelica langueſcat:</l>
+            <l>
+               <pb n="13" facs="tcp:40246:8"/>Perfecta Relligio nec Umbra, nec Cadaver eſt.</l>
+            <l>Teſtor at Aedem Paulinam, Baptiſtica teſtor</l>
+            <l>Maenia, Te neccùm ambiiſſe</l>
+            <l>Titulum novae Fundationis, aut Eccleſiae,</l>
+            <l>Attamen novatae;</l>
+            <l>Magnificus ſimul, atque Modeſtus:</l>
+            <l>Hâc etiam Templi Renovatione,</l>
+            <l>Antiquitatis aemulus.</l>
+            <l>Nec Matri Natus eras almior Eccleſiae;</l>
+            <l>Quam Nutrici</l>
+            <l>Alumnus Academiae:</l>
+            <l>Suffulciit hanc dextera veſtra firmis</l>
+            <l>Aedificiorum</l>
+            <l>Deſtinis,</l>
+            <l>Legum &amp; columnis magè manſuris;</l>
+            <l>Accepit Lapideum,</l>
+            <l>Sed <hi>Marmoreum</hi>
+            </l>
+            <l>Reliquit, heu! Lycaeum.</l>
+            <l>At Athenae vel relictae linqui</l>
+            <l>Non videntur, donec ades Muneribus perennis:</l>
+            <l>Cujus Laudibus</l>
+            <l>Beneficia tua ſimul</l>
+            <l>Materiam ſuppeditarunt, &amp; Verba.</l>
+            <l>Diſſonas quot Linguas Babylonis</l>
+            <l>Turris audiit, capit Ordinatas</l>
+            <l>Totidem Stoa noſtra de Tuo</l>
+            <l>Peculio:</l>
+            <l>Amalthaea folia, vel Amalthaea diphthera,</l>
+            <l>Salomonis</l>
+            <l>Et Pancarpia,</l>
+            <l>Vileſcunt collata Voluminibus Veſtris:</l>
+            <l>Quae vndiquaque colligi ſtuduit ambitus Tuus,</l>
+            <l>Queîs emptis careas Unus emptor;</l>
+            <l>
+               <pb n="14" facs="tcp:40246:9"/>Neve quid Oxoniò neges, negabas</l>
+            <l>Soli Tibiipſi Tua.</l>
+            <l>Ceimeliorum ſed fodina</l>
+            <l>Inventa haec poterat magis latere,</l>
+            <l>Niſi addidiſſes huic Babeli Interpretem; hominis geſtiens</l>
+            <l>Lapſum Secundum reſtituiſſe, novus</l>
+            <l>Linguarnm Soter, uti Chriſtus Mentium;</l>
+            <l>More &amp; Ore, ut Unitas ſit Uniformitaſque nobis.</l>
+            <l>Haec autem</l>
+            <l>Apertis Manibus munificentia</l>
+            <l>Induxit manicas; ac pedicas tulit</l>
+            <l>Huic Danieli <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>;</l>
+            <l>Et ſua Capiti capitalis erat</l>
+            <l>Doctrina:</l>
+            <l>Proh Crimina inaudita! utinam Epidemica!</l>
+            <l>Qui Laetus ſummos ubi ſurſum aſcendit honores,</l>
+            <l>Et Gentilitiae inſtar Alaudae</l>
+            <l>Alacritate non minore decidit deorſum:</l>
+            <l>Cumque Accuſatorum Vipereos gyros</l>
+            <l>Ut Paulus Serpentem excuſſerat illaeſus:</l>
+            <l>Poſt Luſtrum</l>
+            <l>Moriendi;</l>
+            <l>Quum perpeſſus erat vitae, mortiſque Senium:</l>
+            <l>Judex ſeverus Sibi,</l>
+            <l>Condonator Judicibus</l>
+            <l>Severior;</l>
+            <l>Nolens deſerere Crucem, ſive Coronam,</l>
+            <l>Ut Salvus eſſet, cum periculo Salutis certiore:</l>
+            <l>Vbi pro Nobis vixiſſet Martyrium,</l>
+            <l>Gratitudine aemulâ</l>
+            <l>Ipſo immolatur pro Deo; vel Sacrificio Victima.</l>
+            <pb facs="tcp:40246:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
